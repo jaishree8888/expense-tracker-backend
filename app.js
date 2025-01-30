@@ -18,7 +18,7 @@ const mongoose = require('mongoose');
 app.use(express.json()) //Middleware
 app.use(cors()) //cors-->middleware used to avoid cross origin resource sharing error(cors)
 // mongodb+srv://saumya:saumya2005@cluster0.ii2ki.mongodb.net/ --> mongodb atlas connection string
-mongoose.connect("mongodb://localhost:27017/expenses-db").then(()=>{
+mongoose.connect("mongodb+srv://jaishree:eshwarites27@cluster0.clesnwl.mongodb.net/").then(()=>{
     console.log("connected to database")
 })
 
